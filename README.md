@@ -3,21 +3,21 @@
 ### Steps to run Code
 - Clone the repository.
 ```
-git clone https://github.com/RizwanMunawar/yolov7-object-cropping.git
+git clone https://github.com/RizwanMunawar/yolov7-object-blurring.git
 ```
 - Goto the cloned folder.
 ```
-cd yolov7-object-cropping
+cd yolov7-object-blurring
 ```
 - Create a virtual envirnoment (Recommended, If you dont want to disturb python packages)
 ```
 ### For Linux Users
-python3 -m venv yolov7objcropping
-source yolov7objcropping/bin/activate
+python3 -m venv yolov7objblurring
+source yolov7objblurring/bin/activate
 
 ### For Window Users
-python3 -m venv yolov7objcropping
-cd yolov7objcropping
+python3 -m venv yolov7objblurring
+cd yolov7objblurring
 cd Scripts
 activate
 cd ..
@@ -31,36 +31,26 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-- Download [yolov7](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) object detection weights from link and move them to the working directory {yolov7-object-cropping}
+- Download [yolov7](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) object detection weights from link and move them to the working directory {yolov7-object-blurring}
 - Run the code with mentioned command below.
 ```
 #if you want to change source file
-python detect_and_blur.py --weights yolov7.pt --source "your video.mp4"
+python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" --blurratio 20
 
 #for specific class (person)
-python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" -classes 0
+python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" -classes 0 --blurratio 50
 ```
-- Cropped Objects will be stored in "working-dir/crop" folder.
+- Output file will be created in the <b>working-dir/runs/detect/exp</b> with original filename.
 
 ### Results
 <table>
   <tr>
-    <td>Objects Cropped 1</td>
-    <td>Objects Cropped 2</td>
-    <td>Objects Cropped 3</td>
-    <td>Objects Cropped 4</td>
-    <td>Objects Cropped 5</td>
-    <td>Objects Cropped 6</td>
-    <td>Objects Cropped 7</td>
+    <td>Objects Blurred</td>
+    <td>Objects Blurred Hide detected area</td>
   </tr>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/62513924/185807618-0d82e0ff-12f9-48b0-9c92-68f336acf621.jpg"></td>
      <td><img src="https://user-images.githubusercontent.com/62513924/185807623-ee024f23-a2ae-4560-b570-9d09ea773696.jpg"></td>
-     <td><img src="https://user-images.githubusercontent.com/62513924/185807620-a3990460-2f88-45c3-9f17-0bd917574370.jpg"></td>
-     <td><img src="https://user-images.githubusercontent.com/62513924/185807621-d53e3830-fe0c-43ca-af60-a285b2112cf8.jpg"></td>
-     <td><img src="https://user-images.githubusercontent.com/62513924/185807624-0827eb80-2bf1-436d-ac38-c2cb864be9a2.jpg"></td>
-     <td><img src="https://user-images.githubusercontent.com/62513924/185807625-18ddabec-90eb-40cc-8370-9ec603c2c14f.jpg"></td>
-     <td><img src="https://user-images.githubusercontent.com/62513924/185807626-1f9299a5-9487-4c4a-ac21-76a43a8f146f.jpg"></td>
   </tr>
  </table>
 

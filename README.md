@@ -1,4 +1,4 @@
-# yolov7-object-cropping
+# yolov7-object-blurring
 
 ### Steps to run Code
 - Clone the repository.
@@ -45,14 +45,16 @@ python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" -classes
 ### Results
 <table>
   <tr>
-    <td>Objects Blurred</td>
+    <td>Objects Blurred A</td>
+    <td>Objects Blurred B</td>
     <td>Objects Blurred Hide detected area</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/62513924/185807618-0d82e0ff-12f9-48b0-9c92-68f336acf621.jpg"></td>
-     <td><img src="https://user-images.githubusercontent.com/62513924/185807623-ee024f23-a2ae-4560-b570-9d09ea773696.jpg"></td>
+    <td><img src="https://user-images.githubusercontent.com/62513924/186101334-1de03f51-9f64-41fd-b488-b77eb949865d.png"></td>
+     <td><img src="https://user-images.githubusercontent.com/62513924/186101348-3b06d516-5507-4548-8efa-9b55564a75fe.png"></td>
   </tr>
  </table>
+
 
  ### References
  - https://github.com/WongKinYiu/yolov7

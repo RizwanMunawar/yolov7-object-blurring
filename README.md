@@ -39,6 +39,9 @@ python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" --blurra
 
 #for specific class (person)
 python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" -classes 0 --blurratio 50
+
+#hide-detected-bounding-boxes
+python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" -classes 0 --blurratio 50 --hidedetarea
 ```
 - Output file will be created in the <b>working-dir/runs/detect/exp</b> with original filename.
 
@@ -51,7 +54,8 @@ python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" -classes
   </tr>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/62513924/186101334-1de03f51-9f64-41fd-b488-b77eb949865d.png"></td>
-     <td><img src="https://user-images.githubusercontent.com/62513924/186101348-3b06d516-5507-4548-8efa-9b55564a75fe.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/62513924/186101348-3b06d516-5507-4548-8efa-9b55564a75fe.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/62513924/186102964-59f89ae2-80ac-43c9-ab64-54c607a1cbe9.png"></td>
   </tr>
  </table>
 

@@ -70,5 +70,7 @@ python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" -classes
 - https://medium.com/augmented-startups/yolor-or-yolov5-which-one-is-better-2f844d35e1a1
 - https://medium.com/augmented-startups/train-yolor-on-custom-data-f129391bd3d6
 - https://medium.com/augmented-startups/develop-an-analytics-dashboard-using-streamlit-e6282fa5e0f
+- https://chr043416.medium.com/setup-transfer-learning-toolkit-with-docker-on-ubuntu-a9b0198bae7
+- https://medium.com/nerd-for-tech/object-detection-and-image-classification-helps-in-retail-analytics-46acc434daa0
 
 For more details, you can reach out to me on [Medium](https://chr043416.medium.com/) or can connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadrizwanmunawar/)

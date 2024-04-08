@@ -37,7 +37,7 @@ pip install -r requirements.txt
 #if you want to change source file
 python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" --blurratio 20
 
-#for specific class (person)
+#for specific class (person or 0 classes)
 python detect_and_blur.py --weights yolov7.pt --source "your video.mp4" -classes 0 --blurratio 50
 
 #hide-detected-bounding-boxes

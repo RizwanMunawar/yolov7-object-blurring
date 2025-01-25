@@ -1,6 +1,6 @@
 # YOLOv7 Object Blurring
 
-A Python-based tool for object detection and selective blurring using YOLOv7. This repository allows you to blur specific classes of objects in videos or images. It’s an ideal solution for anonymizing data in videos, protecting privacy, or focusing on certain objects.
+A Python project for object detection and selective blurring using YOLOv7. This repository allows you to blur specific classes of objects in videos or images. It’s an ideal solution for anonymizing data in videos, protecting privacy, or focusing on certain objects.
 
 ### Prerequisites
 - **Python 3.6+** installed on your system.
@@ -102,4 +102,4 @@ The output video will be saved in the directory: `runs/detect/exp`. Each new run
 
 **More Information**
 
-For more details, you can reach out to me on [Medium](https://chr043416.medium.com/) or can connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadrizwanmunawar/)
+For more details, you can reach out to me on [Medium](https://muhammadrizwanmunawar.medium.com/) or can connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadrizwanmunawar/)
